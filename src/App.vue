@@ -7,7 +7,7 @@
       </v-flex>
       <v-flex xs12>
         <v-layout row justify-center>
-            <v-flex xs1 v-for="icon in icons" :key="icon.name" class="mx-3">
+            <v-flex xs3 sm1 v-for="icon in icons" :key="icon.name">
               <v-btn flat icon :href="icon.url" :target="icon.target">
                 <v-icon>{{ icon.name }}</v-icon>
               </v-btn>
